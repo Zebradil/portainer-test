@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  taskwarriorweb:
+    image: alpine:latest
+    volumes:
+      - ./testdir:/root/testdir
+      - ./hosts:/etc/hosts
